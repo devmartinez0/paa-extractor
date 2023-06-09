@@ -3,6 +3,8 @@
 
 // YOU CAN SET THE MAX NUMBER OF RESULTS OBTAINED FROM PAA, DEFAULT IS 100
 // PUEDES CAMBIAR LA CANTIDAD MAXIMA DE RESULTADOS OBTENIDOS DE PAA, POR DEFECTO SON 100
+
+```
 const maxResults = 100;
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
@@ -34,3 +36,4 @@ console.log(
     .replace(/,/g, "\n")
 );
 console.log("==============  END   ==============");
+```
